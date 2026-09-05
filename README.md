@@ -71,7 +71,7 @@ python3 reset_db.py            # full wipe
 python3 reset_db.py INV005     # clear promise-to-pay flag for one invoice
 ```
 
-## Known limitations / not built (given the timeframe)
+## Known limitations
 
 - "Sending" is simulated, not wired to a real email/SMS provider
 - Priority scoring is a heuristic, not a trained model -- a clear future upgrade path once outcome data exists
