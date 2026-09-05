@@ -24,9 +24,8 @@ Given a batch of overdue invoices, the system:
 
 ## Architecture
 
-```
 ![System Architecture](docs/architecture.png)
-```
+
 
 ## Setup
 
