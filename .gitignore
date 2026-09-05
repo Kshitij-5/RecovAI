@@ -1,0 +1,14 @@
+# Local database - contains test data, not something to version control
+recovery.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# In case you ever add a .env file for API keys
+.env
+.env.local
+
+# OS/editor junk
+.DS_Store
+.vscode/settings.json
