@@ -25,8 +25,7 @@ Given a batch of overdue invoices, the system:
 ## Architecture
 
 ```
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d22f376f-eaf7-4749-ba06-7893012418dc" />
-d
+![System Architecture](docs/architecture.png)
 ```
 
 ## Setup
