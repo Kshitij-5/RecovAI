@@ -1,4 +1,4 @@
-# Receivable Recovery Agent
+# RecovAI
 
 An AI-assisted B2B invoice recovery system built for the Razorpay AI Buildathon 2026 (AI Revenue Recovery track).
 
@@ -25,24 +25,8 @@ Given a batch of overdue invoices, the system:
 ## Architecture
 
 ```
-invoices.csv --> main.py --> db.py (SQLite: invoices, messages, audit_log)
-                    |
-                    v
-         workflow.should_stop() -- hard rules, checked first, in code
-                    |
-                    v
-      llm.decide_intervention() -- bounded LLM decision:
-      draft_reminder / escalate_to_human / hold
-      (Gemini -> Groq -> safe default fallback)
-                    |
-                    v (if draft_reminder)
-           llm.draft_message() -- LLM writes the actual text
-                    |
-                    v
-      workflow.review_and_send() -- human approval gate
-                    |
-                    v
-        audit_log -- every decision and action, timestamped
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d22f376f-eaf7-4749-ba06-7893012418dc" />
+d
 ```
 
 ## Setup
